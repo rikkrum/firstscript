@@ -1,11 +1,11 @@
- # my first script I wrote which works. It's just mod 25 math
+# my first script I wrote which works. It's just mod 25 math
 
 import sys # imports stuff. Not sure if this is actually necessary.
 
 while 1==1: # prepares a loop  
-    a = int(input("What is A? Must be 25 of under: "))
+    a = int(input("What is A? Must be 25 or under: "))
     # lets you input numerical value of variable A
-    b = int(input("What is B? Must be 25 of under: "))
+    b = int(input("What is B? Must be 25 or under: "))
     # lets you input numerical value of variable B
 
     if a + b > 25: # conditional statement which introduces mod 25
